@@ -1,9 +1,11 @@
 # FlaskProject
 ## 项目依赖环境：
-* os: CentOS Linux release 7.3
-* python3.5
-* apache2.4
-* db: mysql  Ver 15.1 Distrib 5.5.56-MariaDB
+* os: CentOS Linux release 7.3 阿里云ECS服务直接提供
+* python3.5 [安装方式](https://blog.csdn.net/u010472499/article/details/53412411)
+* apache2.4 [安装方式](https://www.cnblogs.com/me80/p/7218883.html)中第一步
+* db: mysql  Ver 15.1 Distrib 5.5.56-MariaDB [安装方式](https://www.cnblogs.com/me80/p/7218883.html)中第二步及[补充](https://blog.csdn.net/a1010256340/article/details/77334097)
+* mod_wsgi [安装方式](https://www.cnblogs.com/dapianzi/p/7723829.html)
+
 ## 文件列表描述：
 * apns: apple推送服务需要用到的密钥文件，其中主要用两个nokey后缀的文件(tips: 这两个文件是用我自己的macbook pro得到的，后期如果要换mac开发需要重新做密钥文件)
 * app: flask app项目主体所有的web后端逻辑全部在这个文件夹中
